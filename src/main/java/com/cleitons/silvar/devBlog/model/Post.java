@@ -28,4 +28,5 @@ public class Post {
     @Column(name = "data_cadastro")
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
     @Getter @Setter private LocalDate dataCadastro;
+    
 }
